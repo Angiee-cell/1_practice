@@ -12,7 +12,7 @@ git add
 
 Сохранение изменений и указание в кавычках того, что именно было сделано:
 ```sh
-git commit -m "Message"
+git commit -m "Message text"
 ```
 
 Подробный журнал всех изменений:
@@ -27,10 +27,6 @@ git log --oneline
 
 Возвращение к одному из сохраненных ранее изменений:
 ```sh
-<<<<<<< HEAD
-git checkout <branch_name>
-```
-=======
 git checkout <имя ветки>
 ```
 
@@ -39,4 +35,3 @@ git checkout <имя ветки>
 git branch
 ```
 
->>>>>>> branch_comand
