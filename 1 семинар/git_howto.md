@@ -27,10 +27,11 @@ git log --oneline
 
 Возвращение к одному из сохраненных ранее изменений:
 ```sh
-git checkout
+git checkout <имя ветки>
 ```
 
 Отображение всех веток
 ```sh
 git branch
 ```
+
